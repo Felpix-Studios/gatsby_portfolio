@@ -13,7 +13,6 @@ const articles = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <Seo title="All posts" />
-        <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -26,11 +25,14 @@ const articles = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
-      <Bio />
+      <h1 className="pageTitle">📝 Articles</h1>
+      <p className="pageTitle">I write pieces on interesting topics or events. Hopefully, you find some use out of them.</p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
+          console.log(post)
           const title = post.frontmatter.title || post.fields.slug
 
+          const category = post.frontmatter.category || []
           return (
             <li key={post.fields.slug}>
               <article
@@ -44,7 +46,12 @@ const articles = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <p>
+                    <span className="category">
+                      {post.frontmatter.category}
+                    </span>{" "}
+                    | {post.frontmatter.date}
+                  </p>
                 </header>
                 <section>
                   <p
@@ -55,6 +62,7 @@ const articles = ({ data, location }) => {
                   />
                 </section>
               </article>
+              <hr />
             </li>
           )
         })}
@@ -81,6 +89,7 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          category
           description
         }
       }

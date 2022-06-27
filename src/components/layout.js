@@ -10,12 +10,14 @@ const Layout = ({ location, title, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <Navbar location={isRootPath} />
-      <main className="container">{children}</main>
-      <footer>
-        Felpix© {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      <main className="container">
+        {children}
+        <footer>
+          <p>
+            Felpix© {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.com">Gatsby</a> | <a href="mailto: hi@felpix.com" target="new">hi@felpix.com</a> | <a href="https://github.com/Felpix-Studios" target="new">Felpix-Studios</a> on Github | <a href="https://twitter.com/FelpixTheMaker" target="new">@FelpixTheMaker</a> on Twitter
+          </p>
+        </footer>
+      </main>
     </div>
   )
 }

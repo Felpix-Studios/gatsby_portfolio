@@ -14,8 +14,8 @@ const Navbar = (location) => {
           Felpix
         </Link>
         <div className="nav-right">
-          <Link href="projects">Projects</Link>
-          <Link href="articles">Articles</Link>
+          <Link href="../projects">Projects</Link>
+          <Link href="../articles">Articles</Link>
           <Link href="about">About</Link>
         </div>
       </nav>
