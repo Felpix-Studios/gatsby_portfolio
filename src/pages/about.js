@@ -26,7 +26,7 @@ const about = ({ data, location }) => {
           account to find more.
         </li>
         <li>
-          🎙️ I write and host a{" "}
+          🎙️ I am a webmaster, write, and host a{" "}
           <a
             target="new"
             href="https://open.spotify.com/show/2bed9WR02ETBQE9ZwfwNvQ"
@@ -37,8 +37,8 @@ const about = ({ data, location }) => {
           <a target="new" href="https://extempers.org/">
             The Extemper's Bible
           </a>
-          . We aim to offer the best free resource for people entering the world
-          of Speech & Debate.
+          . We aim to be the best free resource for people entering the world
+          of speech & debate.
         </li>
         <li>
           ✍️ Right here, I write articles on life, tech, and politics. It's a

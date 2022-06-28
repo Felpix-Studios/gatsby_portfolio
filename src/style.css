@@ -247,7 +247,9 @@ nav .nav-right a:hover {
 .project {
   display: inline-grid;
 }
-
+.project a{
+  color:#121212
+}
 code {
   font-family: "Source Code Pro";
   background-color: #E3E2DA;
@@ -287,21 +289,26 @@ footer {
 
 .project {
   display: inline;
+  transition: all 240ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-sizing: border-box;
   background-color: #E3E2DA;
   padding: 0.5rem 2rem 1.5rem 2rem;
-  transition: 250ms ease-in-out;
 }
 .project:hover {
-  background-color: #0EA5A0;
-  transform: scale(1.05, 1.05);
+  -webkit-box-shadow: inset 0px 0px 0px .5rem #0EA5A0;
+  -moz-box-shadow: inset 0px 0px 0px .5rem #0EA5A0;
+  box-shadow: inset 0px -.5rem 0rem 0rem #0EA5A0;
 }
-.project:hover p, .project:hover h3, .project:hover a i {
-  color: #f6f6f6;
+.project h3 a{
+  font-size:1.75rem;
+  text-decoration-color: #0EA5A0;
 }
-.project a i {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  margin-right: 1rem;
+.project:hover p, .project:hover h3, .project:hover a {
+
+  
+}
+.project a{
+  font-size: 1rem;
 }
 
 .isDisabled {
@@ -338,8 +345,7 @@ blockquote>ol {
   margin: 0;
 
 }
-code{
-
+svg{
 }
 .indexBio{
   font-weight: 600;

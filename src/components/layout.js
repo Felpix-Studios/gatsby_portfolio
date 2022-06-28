@@ -1,4 +1,5 @@
 import * as React from "react"
+import { fas } from "@fortawesome/free-regular-svg-icons"
 import { Link } from "gatsby"
 import Navbar from "../components/navbar"
 const Layout = ({ location, title, children }) => {
