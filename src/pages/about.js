@@ -7,7 +7,7 @@ const about = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="About Me" />
+      <Seo title="About" />
       <h1 className="pageTitle">🎓 About</h1>
       <p className="pageTitle">
         I'm a full time student and part time developer. Oh, and there's some

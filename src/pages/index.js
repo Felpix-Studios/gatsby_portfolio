@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       
-      <Seo title="Index" />
+      <Seo title="Home" />
       <h1 className="indexBio">
         👋 Hi, I'm{" "}
         <a>
