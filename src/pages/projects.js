@@ -44,7 +44,7 @@ const Project = ({ data, location }) => {
         </div>
         <div className="project fancyhover">
           <h3>
-            <a href="">RidgeHacks</a>
+            <a href="https://ridgehacks.us">RidgeHacks</a>
           </h3>
           <p>
             The website for RidgeHacks 2022, my high school's hackathon (which I
