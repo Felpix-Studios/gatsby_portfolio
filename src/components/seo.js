@@ -21,7 +21,6 @@ const Seo = ({ description, lang, meta, title }) => {
             social {
               twitter
             }
-            image
           }
         }
       }
