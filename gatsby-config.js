@@ -10,7 +10,7 @@ module.exports = {
       twitter: `FelpixTheMaker`,
       github: `Felpix-Studios`,
     },
-    image: `/images/felpix-logo.png`,
+    image: `/images/felpix-profile.jpg`,
   },
   plugins: [
     `gatsby-plugin-image`,
