@@ -2,6 +2,7 @@ import * as React from "react"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import {Globe, GitBranch} from "phosphor-react"  
 
 const Project = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -59,7 +60,8 @@ const Project = ({ data, location }) => {
             </a>
           </h3>
           <p>
-            A final project made for my High School CS class. It's a GUI for pathfinding algorithms like A*, BFS, and DFS made in Java.
+            A final project made for my High School CS class. It's a GUI for
+            pathfinding algorithms like A*, BFS, and DFS made in Java.
           </p>
         </div>
       </div>
