@@ -304,10 +304,7 @@ footer {
   font-size:1.75rem;
   text-decoration-color: #0EA5A0;
 }
-.project:hover p, .project:hover h3, .project:hover a {
 
-  
-}
 .project a{
   font-size: 1rem;
 }
@@ -344,9 +341,6 @@ blockquote>ol {
 .gatsby-highlight{
   padding: 0;
   margin: 0;
-
-}
-svg{
 }
 .indexBio{
   font-weight: 600;
