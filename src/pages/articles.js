@@ -24,7 +24,7 @@ const articles = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title="All posts"/>
       <h1 className="pageTitle">📝 Articles</h1>
       <p className="pageTitle">I write pieces on interesting topics or events. Hopefully, you find some use out of them.</p>
       <ol style={{ listStyle: `none` }}>

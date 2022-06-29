@@ -9,8 +9,7 @@ module.exports = {
     social: {
       twitter: `FelpixTheMaker`,
       github: `Felpix-Studios`,
-    },
-    image: `/images/felpix-logo.png`,
+    }
   },
   plugins: [
     `gatsby-plugin-image`,
