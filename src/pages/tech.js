@@ -1,3 +1,4 @@
+import { graphql } from "gatsby"
 export const pageQuery = graphql`
   query {
     site {
