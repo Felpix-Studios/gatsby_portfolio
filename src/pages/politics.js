@@ -27,7 +27,7 @@ const politicsArticles = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="Politics Posts" />
-      <h1> className="pageTitle">🏛️ Politics</h1>
+      <h1> className="pageTitle"🏛️ Politics</h1>
       <p className="pageTitle">
         I write pieces on interesting topics or events. Hopefully, you find some
         use out of them.
