@@ -2,7 +2,6 @@ import * as React from "react"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import {Globe, GitBranch} from "phosphor-react"  
 
 const Project = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`

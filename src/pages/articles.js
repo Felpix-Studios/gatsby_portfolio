@@ -25,6 +25,7 @@ const articles = ({ data, location }) => {
       <Seo title="All posts" />
       <h1 className="pageTitle">📝 Articles</h1>
       <p className="pageTitle">I write pieces on interesting topics or events. Hopefully, you find some use out of them.</p>
+      {console.log(posts)}
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           console.log(post)
