@@ -4,12 +4,13 @@ module.exports = {
     author: {
       name: `Felpix`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `👋 Hi, I'm Felpix and welcome to my website. Here, you can find my blog and take a look at a few of my projects.`,
     siteUrl: `https://felpix.com`,
     social: {
       twitter: `FelpixTheMaker`,
       github: `Felpix-Studios`,
     },
+    image: `/images/felpix-logo.png`,
   },
   plugins: [
     `gatsby-plugin-image`,

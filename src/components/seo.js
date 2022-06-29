@@ -21,6 +21,7 @@ const Seo = ({ description, lang, meta, title }) => {
             social {
               twitter
             }
+            image
           }
         }
       }
@@ -55,6 +56,10 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          prperty: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -70,6 +75,7 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        
       ].concat(meta)}
     />
   )

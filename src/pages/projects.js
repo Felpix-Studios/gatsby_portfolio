@@ -2,8 +2,7 @@ import * as React from "react"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
+import {Globe, GitBranch} from "phosphor-react"  
 
 const Project = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -18,6 +17,7 @@ const Project = ({ data, location }) => {
       <div className="projectContainer">
         <div class="project fancyhover">
           <h3>
+            ⌨️{" "}
             <a href="https://felpix-studios.github.io/typetimerweb/">
               TypeTimer
             </a>
@@ -30,6 +30,7 @@ const Project = ({ data, location }) => {
         </div>
         <div className="project fancyhover">
           <h3>
+            🏠{" "}
             <a href="https://nnjdsa.gitlab.io/nnjdsalandlordfinder/">
               Find My Landlord
             </a>{" "}
@@ -44,7 +45,7 @@ const Project = ({ data, location }) => {
         </div>
         <div className="project fancyhover">
           <h3>
-            <a href="https://ridgehacks.us">RidgeHacks</a>
+            👨‍💻 <a href="https://ridgehacks.us">RidgeHacks</a>
           </h3>
           <p>
             The website for RidgeHacks 2022, my high school's hackathon (which I
@@ -53,6 +54,7 @@ const Project = ({ data, location }) => {
         </div>
         <div className="project fancyhover">
           <h3>
+            🗺️{" "}
             <a href="https://replit.com/@KevinL42/Pathfinding-Final#Main.java">
               Pathfinder
             </a>
