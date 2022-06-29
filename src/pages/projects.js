@@ -60,8 +60,7 @@ const Project = ({ data, location }) => {
             </a>
           </h3>
           <p>
-            A final project made for my High School CS class. It's a GUI for
-            pathfinding algorithms like A*, BFS, and DFS made in Java.
+            A final project made for my High School CS class. It's a GUI for pathfinding algorithms like A*, BFS, and DFS made in Java.
           </p>
         </div>
       </div>
