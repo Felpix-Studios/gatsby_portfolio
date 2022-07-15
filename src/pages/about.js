@@ -26,7 +26,7 @@ const about = ({ data, location }) => {
           account to find more.
         </li>
         <li>
-          🎙️ I am a webmaster, write, and host a{" "}
+          🎙️ I am a webmaster, writer, and the host of a{" "}
           <a
             target="new"
             href="https://open.spotify.com/show/2bed9WR02ETBQE9ZwfwNvQ"
@@ -41,7 +41,7 @@ const about = ({ data, location }) => {
           of speech & debate.
         </li>
         <li>
-          ✍️ Right here, I write articles on life, tech, and politics. It's a
+          ✍️ Right here, I write articles on everything from life, productivity, tech, and politics. It's a
           bit infrequent, but another way to get the creative juices flowing.
         </li>
       </ol>
