@@ -1,7 +1,7 @@
 ---
 title: Pilot
 date: "2022-07-15T22:40:32.169Z"
-category: Misc
+category: Meta
 description: A pilot episode is the first in its series. A test for producers, money-men, and advertisers to see if an idea has traction. Here's to hoping this one does!
 
 ---

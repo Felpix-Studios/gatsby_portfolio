@@ -357,6 +357,7 @@ blockquote>ol {
 } 
 img{
   max-width: fit-content;
+  max-width: 100%;
 }
 @media (max-width: 1600px) {
   nav #title {

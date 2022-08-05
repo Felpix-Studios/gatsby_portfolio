@@ -1,7 +1,7 @@
 ---
 title: 3 Cross-Platform Productivity Apps
 date: "2022-07-22T22:40:32.169Z"
-category: Misc
+category: Productivity
 description: We all love productivity apps! It's just that some work better than others, and on more than one device. Here's a list of 3 amazing apps that fit the bill (and pay for it too).
 
 ---
