@@ -26,7 +26,7 @@ const articles = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts"/>
       <h1 className="pageTitle">📝 Articles</h1>
-      <p className="pageTitle">I write pieces on interesting topics or events. Hopefully, you find some use out of them.</p>
+      <p className="pageTitle">I've actually migrated my writing elsewhere, to substack under the name <a href="https://politicsinprogress.substack.com/" target="new">Politics in Progress</a>.</p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           console.log(post)

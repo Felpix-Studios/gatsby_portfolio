@@ -24,8 +24,8 @@ const Layout = ({ location, title, children }) => {
               Felpix-Studios
             </a>{" "}
             on Github |{" "}
-            <a href="https://twitter.com/FelpixTheMaker" target="new">
-              @FelpixTheMaker
+            <a href="https://twitter.com/felpix_" target="new">
+              @felpix_
             </a>{" "}
             on Twitter
           </p>
