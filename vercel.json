@@ -1,14 +1,5 @@
 {
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "ucsb.felpix.com"
-        }
-      ],
-      "destination": "128.111.30.212:25565"
-    }
+  "redirects": [
+    { "source": "uscb.felpix.com", "destination": "128.111.30.212:25565", "permanent": false }
   ]
 }
