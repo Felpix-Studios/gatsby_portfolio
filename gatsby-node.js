@@ -4,6 +4,13 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
+  const { createRedirect } = actions //actions is collection of many actions - https://www.gatsbyjs.org/docs/actions
+
+  createRedirect({
+    fromPath: `/ucsb`,
+    toPath: `hhttp://128.111.30.212:25565/`,
+    isPermanent: true,
+  })
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
