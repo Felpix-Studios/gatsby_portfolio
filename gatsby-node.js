@@ -8,7 +8,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   createRedirect({
     fromPath: `/ucsb`,
-    toPath: `hhttp://128.111.30.212:25565/`,
+    toPath: `http://128.111.30.212:25565/`,
     isPermanent: true,
   })
 
