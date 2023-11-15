@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "uscb.felpix.com", "destination": "128.111.30.212:25565", "permanent": false }
+    { "source": "uscb.felpix.com", "destination": "http://128.111.30.212:25565", "permanent": true }
   ]
 }
