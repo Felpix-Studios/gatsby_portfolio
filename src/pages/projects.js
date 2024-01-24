@@ -10,59 +10,56 @@ const Project = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Projects" />
       <h1 className="pageTitle">🛠️ Projects</h1>
-      <p className="pageTitle">
-        Here's a grid of some of my favorite projects. If you want more, go to
-        my GitHub!
-      </p>
+      <p className="pageTitle">Things I've made.</p>
       <div className="projectContainer">
         <div class="project fancyhover">
           <h3>
-            ⌨️{" "}
+            
             <a href="https://felpix-studios.github.io/typetimerweb/">
               TypeTimer
             </a>
           </h3>
-          <p>
-            A fun game based on TypeRacer. The app is made with MongoDB,
-            Express, React, and Chakra UI. It uses the Socket.io library to
-            support multiplayer.
-          </p>
+          <p>Typeracer clone.</p>
         </div>
         <div className="project fancyhover">
           <h3>
-            🏠{" "}
+
             <a href="https://nnjdsa.gitlab.io/nnjdsalandlordfinder/">
               Find My Landlord
             </a>{" "}
             (WIP)
           </h3>
-          <p>
-            A free service for renters provided by the New Jersey Democratic
-            Socialists of America. I worked on the frontend MapBox API
-            component, the backend database management, and the data collection
-            from public tax records.
-          </p>
+          <p>Find your landlord and see if they're a slumlord.</p>
         </div>
         <div className="project fancyhover">
           <h3>
-            👨‍💻 <a href="https://ridgehacks.us">RidgeHacks</a>
+             <a href="https://ridgecompsci.club/">RCSClub</a>
           </h3>
-          <p>
-            The website for RidgeHacks 2022, my high school's hackathon (which I
-            also organized). It's made with Gatsby.
-          </p>
+          <p>High school club.</p>
         </div>
         <div className="project fancyhover">
           <h3>
-            🗺️{" "}
+            <a href="https://coderssb.com/">Coders SB</a>
+          </h3>
+          <p>University club.</p>
+        </div>
+        <div className="project fancyhover">
+          <h3>
+            
+            <a href="https://imtootiredtoplanavacationfor.us//">
+              imtootiredtoplanavacationforus
+            </a>
+          </h3>
+          <p>The name.</p>
+        </div>
+        <div className="project fancyhover">
+          <h3>
+            
             <a href="https://replit.com/@KevinL42/Pathfinding-Final#Main.java">
               Pathfinder
             </a>
           </h3>
-          <p>
-            A final project made for my High School CS class. It's a GUI for
-            pathfinding algorithms like A*, BFS, and DFS made in Java.
-          </p>
+          <p>Algorithms.</p>
         </div>
       </div>
     </Layout>
